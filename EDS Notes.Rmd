@@ -1,0 +1,40 @@
+---
+title: "EDS 222 Lecture and Reading Notes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# Lecture 1 on 9/23/21
+
+## Sample vs. Population
+
+## Parameters and statistics 
+
+## Random Sample
+* samples that are not drawn randomly are likely to bias your stats
+* E.g. 
+  + __Systematic non-response sampling__
+  + __Convenience sampling__
+* Four (random) sampling strategies
+1. __Simple random sampling__
+  + hard to do, expensive, can be small
+2. __Stratified Sampling__
+  + more complex to analyze sample and construct estimates of pop parameters
+  + Helpful when individuals within strata are quite similar
+  + Used often as a method of variance reduction
+3. __Cluster sampling__
+  + Helpful when individuals within a cluster are quite different from one another
+  + Used when costs of data collection are high per cluster (demographic & health surveys)
+  + Also more complex to estimate pop. parameters
+4. Multi-stage sampling
+  + very similar to cluster sampling, just take fewer samples (randomly)
+
+## Study Design
+* __Experimental studies__ (think medical studies) sample is collected to fit study's needs
+* __Observational studies__ (think climate data) sample exists, design your study to make best use of available data
+* In both cases, the researcher aims to casually identify a pop. parameter
